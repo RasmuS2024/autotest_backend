@@ -1,2 +1,34 @@
-## Домашнее задание: Рaзрaботкa aвтoтeстов для бэкeндa
+# Домашнее задание: Рaзрaботкa aвтoтeстов для бэкeндa
+
+## Тестируемое приложение
+Проверяется бэкенд сервиса space-api проекта https://github.com/RasmuS2024/seminar-11
+Запуск тестируемого приложения описан в README проекта: https://github.com/RasmuS2024/seminar-11/blob/main/README.MD
+
+
+## Автотесты
+Перед началом тестирования необходимо запустить тестируемое приложение.
+Автотесты проверяют сервис space-api по умолчанию запускаемого на порту 8080.
+
+Как запускать тесты:
+```bash
+./gradlew test
+```
+
+## Allure-отчёт
+
+После прогона тестов сформировать и открыть отчёт:
+
+```bash
+./gradlew allureReport
+./gradlew allureServe
+```
+
+- `allureReport` — генерирует HTML-отчёт в папку `build/reports/allure-report/` текущего проекта;
+- `allureServe` — запускает локальный веб-сервер и открывает отчёт в браузере.
+
+
+## Скриншоты Allure
+
+![Allure1](allure_screenshots/Allure1.png)
+![Allure2](allure_screenshots/Allure2.png)
 

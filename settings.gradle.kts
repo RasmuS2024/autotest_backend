@@ -1,1 +1,1 @@
-rootProject.name = "autotest"
+rootProject.name = "framework"
