@@ -13,7 +13,7 @@
 
 ### Установка
 
-Склонируйте репозиторий:
+Склонируйте репозиторий и войдите в директорию проекта:
 
 ```bash
 git clone https://github.com/RasmuS2024/autotest_backend.git
