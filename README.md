@@ -41,5 +41,7 @@ cd autotest_backend
 ### Скриншоты Allure
 
 ![Allure1](allure_screenshots/Allure1.png)
-![Allure2](allure_screenshots/Allure2.png)
+рис. 1. Основное окно Allure
 
+![Allure2](allure_screenshots/Allure2.png)
+рис. 2. Запущенные тесты по пакетам
