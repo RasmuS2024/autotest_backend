@@ -30,7 +30,7 @@ cd autotest_backend
 После прогона тестов сформировать и открыть отчёт:
 
 ```bash
-./gradlew allureReport
+./gradlew allureReport --clean
 ./gradlew allureServe
 ```
 
